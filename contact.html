@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css"/>
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" />
+
+</head>
+
+<body>
+
+<!-- navbar section starts -->
+<nav class="navbar">
+    <a href="index.html"> <i class="fas fa-home"></i> <span>home</span> </a>
+    <a href="about.html"> <i class="fas fa-user"></i> <span>about</span> </a>
+    <a href="portfolio.html"> <i class="fas fa-briefcase"></i> <span>portfolio</span> </a>
+    <a href="contact.html"> <i class="fas fa-address-book"></i> <span>contact</span> </a>
+</nav>
+
+<!-- navbar section ends -->
+
+<!-- contact section starts -->
+
+<section class="contact">
+
+<h1 class="heading"> contact <span>me</span> </h1>
+
+<div class="row">
+
+    <div class="info-container">
+
+        <h1>get in touch</h1>
+
+        <p>Constantly check my email so email would be the best method to contact me. I 
+        usually dont pick up to unknown numbers, but you may also call me. Or you can also 
+        send me a message through here.</p>
+
+        <div class="box-conatiner">
+
+            <div class="box">
+                <i class="fas fa-map"></i>
+                <div class="info">
+                    <h3>address :</h3>
+                    <p>Anaheim, CA</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                    <h3>email :</h3>
+                    <p>rod_cris2@icloud.com</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <div class="info">
+                    <h3>number :</h3>
+                    <p>(714)325-0126</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="https://github.com/rodcris2" class="fab fa-github"></a>
+            <a href="https://www.linkedin.com/in/cristian-rodriguez-048512162/" class="fab fa-linkedin-in"></a>
+        </div>
+
+    </div>
+
+    <form action="https://formspree.io/f/xwkyoeyn" method="POST" id="my-form">
+
+        <div class="inputBox">
+            <input type="text" id="Name" name="Name" placeholder="name">
+            <label for="Name">Name*</label>
+        </div>
+
+        <div class="inputBox">
+            <input type="text" id="email" name="email" placeholder="email">
+            <label for="email">Email*</label>
+        </div>
+
+        <label for="meessage">Message*</label>
+        <textarea name="text" id="message" placeholder="message" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="send message" class="btn">
+
+        <br><br>
+        <div id="status"></div>
+
+    </form>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+<script src="main.js"></script>
+
+</body>
+</html>
